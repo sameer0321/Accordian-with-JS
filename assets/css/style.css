@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style-type: none;
+}
+
+.vh-100 {
+    height: 100vh;
+}
+
+.card {
+    width: 540px;
+    min-height: 466px;
+    background-color: #fff;
+    box-shadow: 0 0 38px 19px gray;
+    border-radius: 20px;
+    padding: 24px 21px;
+}
+
+.d-flex {
+    display: flex;
+}
+
+.align-items-center {
+    align-items: center;
+}
+
+.justify-content-center {
+    justify-content: center;
+}
+
+.accordian-header {
+    width: 498px;
+    min-height: 59px;
+    padding: 17px 11px 18px 19px;
+    border-radius: 5px;
+    border: 1px solid #0000001A;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.font1 {
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 19px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #808080;
+
+}
+
+.font2 {
+    max-width: 468px;
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #808080;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.mt-20 {
+    margin-top: 20px;
+}
+
+.pt-20 {
+    padding-top: 20px;
+}
+
+.justify-content-between {
+    justify-content: space-between;
+}
+
+.accordian-item {
+    position: absolute;
+    top: -100%;
+}
+
+.active .item-show {
+    position: unset;
+}
+
+.accordian-header.active {
+    border: 1px solid #128DFF
+}
+
+.accordian-header.active div .font1{
+    color: black;
+}
+
+.accordian-header.active div div svg{
+    transform: rotate(180deg);
+}
